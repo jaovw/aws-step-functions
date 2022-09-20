@@ -1,5 +1,5 @@
 # aws-step-functions
-AWS Step Function with AWS SAM
+AWS Step Function with AWS Tollkit | VSCode
 
  ## Desc
  
@@ -11,20 +11,16 @@ AWS Step Function with AWS SAM
   - build e deploy rapido 
   - regra de negocio complexa em pouco codigo
   - escalonavel 
- 
- 
- Projeto desenvolvido e testado com Docker :whale2:
 
 ## __GETTING STARTED__
- ### Criando  primeiro a state machine:
+ ### Criando a state machine:
 
 ```
 > Create a new Step Function state machine
 ```
-
-
 nomeando a e salvando na extensao __.asl.json__
 
+⚠️ Para atualizar devido a modificacoes, utilizar a opcao __quick update__ ⚠️
 
 ### :rocket: __DEPLOY__
 ```
@@ -37,12 +33,10 @@ nomeando a e salvando na extensao __.asl.json__
 ```
 > Render state machine graph
 ```
+❗ Realizar a visualizacao do diagrama ao decorrer de suas alteracoes no template da maquina de estado
 
 ### Executando 
 Utilizando o painel AWS do VSCode:
 ![image](https://user-images.githubusercontent.com/62576977/191380868-b43d9415-e59a-4f96-852b-dad4311957cc.png)
 
-
-
-
-## :wastebasket:DELETE
+❗Para visualizacao de output e log, apenas no console AWS
