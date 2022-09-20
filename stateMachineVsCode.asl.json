@@ -29,8 +29,9 @@
             "Next": "Wait 3 sec"
         },
         "No": {
-            "Type": "Fail",
-            "Cause": "Not Hello World"
+            "Type": "Pass",
+            "Comment": "Not Hello World",
+            "Next": "Hello World"
         },
         "Wait 3 sec": {
             "Comment": "A Wait state delays the state machine from continuing for a specified time.",
