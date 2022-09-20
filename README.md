@@ -1,5 +1,5 @@
 # aws-step-functions
-AWS Step Function with AWS SAM
+AWS Step Function with AWS Tollkit | VSCode
 
  ## Desc
  
